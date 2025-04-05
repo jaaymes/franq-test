@@ -19,10 +19,6 @@
 
   const { handleSubmit } = useForm<IFormLogin>({
     validationSchema: formSchemaLogin,
-    initialValues: {
-      email: 'jaaymes@gmail.com',
-      password: '@Mudar123',
-    },
   });
 
   const isLoading = ref(false);
