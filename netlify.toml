@@ -5,4 +5,9 @@
 
 [build]
   publish = "dist"
-  command = "pnpm build" 
+  command = "pnpm build"
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    Content-Security-Policy = "upgrade-insecure-requests" 
