@@ -167,7 +167,7 @@
       </CardHeader>
 
       <CardContent>
-        <div class="flex gap-4 py-4">
+        <div class="flex gap-4 py-4 flex-col md:flex-row justify-between">
           <Select
             v-model="selectedPeriod"
             :options="[

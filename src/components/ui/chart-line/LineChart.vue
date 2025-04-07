@@ -74,6 +74,13 @@
       <Skeleton class="w-full h-[360px]" />
     </div>
 
+    <div
+      v-else-if="!data || data.length === 0"
+      class="w-full h-full flex items-center justify-center"
+    >
+      <p class="text-muted-foreground">Sem dados disponíveis</p>
+    </div>
+
     <VisXYContainer
       v-else
       :margin="{ left: 20, right: 20 }"

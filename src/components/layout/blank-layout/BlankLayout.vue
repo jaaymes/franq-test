@@ -1,14 +1,14 @@
 <script setup lang="ts">
-  // import { useRouter } from 'vue-router';
+  import { useRouter } from 'vue-router';
 
-  // import { useAuthStore } from '@/stores/auth';
+  import { useAuthStore } from '@/stores/auth';
 
-  // const { isAuthenticated } = useAuthStore();
-  // const router = useRouter();
+  const { isAuthenticated } = useAuthStore();
+  const router = useRouter();
 
-  // if (isAuthenticated) {
-  //   router.push('/home');
-  // }
+  if (isAuthenticated) {
+    router.push('/home');
+  }
 </script>
 
 <template>
