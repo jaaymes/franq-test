@@ -1,7 +1,7 @@
 # FRANQ-VUE
 
 <div align="center">
-  <img src="https://media.glassdoor.com/sqll/4022440/franq-openbank-squareLogo-1633716752681.png" alt="Logo Franq" width="180" />
+  <img src="./public/logo.png" alt="Logo Franq" width="180" />
   <br />
   <h3>Plataforma moderna para análise e gestão financeira</h3>
 </div>
