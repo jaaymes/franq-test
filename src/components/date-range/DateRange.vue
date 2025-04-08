@@ -84,10 +84,10 @@
     isOpen.value = false;
   };
 
-  // Manipula mudanças no calendário sem aplicar imediatamente
-  const handleCalendarChange = (newValue: DateRange) => {
-    tempValue.value = newValue;
-  };
+  // // Manipula mudanças no calendário sem aplicar imediatamente
+  // const handleCalendarChange = (newValue: DateRange) => {
+  //   tempValue.value = newValue;
+  // };
 
   // Verifica se tem valores selecionados pelo usuário
   const hasSelectedValues = computed(() => props.startDate !== null && props.endDate !== null);
